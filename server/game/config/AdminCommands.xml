@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../data/xsd/AdminCommands.xsd">
+	<!-- ADMIN COND EXCEPTIONS -->
+	<admin command="exceptions" accessLevel="100" />
+	<admin command="set_exception" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN ADMIN -->
+	<admin command="admin" accessLevel="30" />
+	<admin command="admin1" accessLevel="30" />
+	<admin command="admin2" accessLevel="30" />
+	<admin command="admin3" accessLevel="30" />
+	<admin command="admin4" accessLevel="30" />
+	<admin command="admin5" accessLevel="30" />
+	<admin command="admin6" accessLevel="30" />
+	<admin command="admin7" accessLevel="30" />
+	<admin command="gmliston" accessLevel="30" />
+	<admin command="gmlistoff" accessLevel="30" />
+	<admin command="silence" accessLevel="100" />
+	<admin command="diet" accessLevel="100" />
+	<admin command="tradeoff" accessLevel="100" />
+	<admin command="set_mod" accessLevel="100" />
+	<admin command="saveolymp" accessLevel="100" />
+	<admin command="sethero" accessLevel="100" />
+	<admin command="givehero" accessLevel="100" confirmDlg="true" />
+	<admin command="endolympiad" accessLevel="100" confirmDlg="true" />
+	<admin command="setconfig" accessLevel="100" />
+	<admin command="config_server" accessLevel="100" />
+	<admin command="gmon" accessLevel="100" />
+	<admin command="zones" accessLevel="100" />
+	<admin command="pointpicking" accessLevel="100" />
+
+	<!-- ADMIN ANNOUNCEMENTS -->
+	<admin command="announce" accessLevel="30" />
+	<admin command="announce_crit" accessLevel="100" />
+	<admin command="announce_screen" accessLevel="100" />
+	<admin command="announces" accessLevel="30" />
+
+	<!-- ADMIN AUGMENT -->
+	<admin command="augment" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN BAN -->
+	<admin command="ban_acc" accessLevel="30" confirmDlg="true" />
+	<admin command="ban_char" accessLevel="30" confirmDlg="true" />
+	<admin command="unban_char" accessLevel="30" confirmDlg="true" />
+	<admin command="unban_acc" accessLevel="30" confirmDlg="true" />
+	<admin command="punishment" accessLevel="30" />
+	<admin command="punishment_add" accessLevel="30" confirmDlg="true" />
+	<admin command="punishment_remove" accessLevel="30" confirmDlg="true" />
+
+	<!-- ADMIN BBS -->
+	<admin command="bbs" accessLevel="100" />
+
+	<!-- ADMIN BUFFS -->
+	<admin command="buff" accessLevel="100" />
+	<admin command="getbuffs" accessLevel="100" />
+	<admin command="getbuffs_ps" accessLevel="100" />
+	<admin command="stopbuff" accessLevel="100" />
+	<admin command="stopallbuffs" accessLevel="100" confirmDlg="true" />
+	<admin command="viewblockedeffects" accessLevel="100" />
+	<admin command="viewskilleffects" accessLevel="100" />
+	<admin command="viewskilleffects_ps" accessLevel="100" />
+	<admin command="areacancel" accessLevel="100" />
+	<admin command="removereuse" accessLevel="100" />
+	<admin command="switch_gm_buffs" accessLevel="100" />
+
+	<!-- ADMIN CAMERA -->
+	<admin command="camera" accessLevel="100" />
+
+	<!-- ADMIN CHANGE ACCESS LEVEL -->
+	<admin command="changelvl" accessLevel="100" />
+
+	<!-- ADMIN CH SIEGE -->
+	<admin command="chsiege_siegablehall" accessLevel="100" />
+	<admin command="chsiege_startSiege" accessLevel="100" />
+	<admin command="chsiege_endsSiege" accessLevel="100" />
+	<admin command="chsiege_setSiegeDate" accessLevel="100" />
+	<admin command="chsiege_addAttacker" accessLevel="100" />
+	<admin command="chsiege_removeAttacker" accessLevel="100" />
+	<admin command="chsiege_clearAttackers" accessLevel="100" />
+	<admin command="chsiege_listAttackers" accessLevel="100" />
+	<admin command="chsiege_forwardSiege" accessLevel="100" />
+
+	<!-- ADMIN CLAN -->
+	<admin command="clan_info" accessLevel="100" />
+	<admin command="clan_changeleader" accessLevel="100" confirmDlg="true" />
+	<admin command="clan_show_pending" accessLevel="100" />
+	<admin command="clan_force_pending" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN CREATE ITEM -->
+	<admin command="itemcreate" accessLevel="100" />
+	<admin command="create_item" accessLevel="100" />
+	<admin command="create_coin" accessLevel="100" />
+	<admin command="give_item_target" accessLevel="100" confirmDlg="true" />
+	<admin command="give_item_to_all" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN CURSED WEAPONS -->
+	<admin command="cw_info" accessLevel="100" />
+	<admin command="cw_remove" accessLevel="100" />
+	<admin command="cw_goto" accessLevel="100" />
+	<admin command="cw_reload" accessLevel="100" />
+	<admin command="cw_add" accessLevel="100" confirmDlg="true" />
+	<admin command="cw_info_menu" accessLevel="100" />
+
+	<!-- ADMIN DEBUG -->
+	<admin command="debug" accessLevel="100" />
+
+	<!-- ADMIN DELETE -->
+	<admin command="delete" accessLevel="100" />
+	<admin command="delete_group" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN DESTROY ITEMS -->
+	<admin command="destroy_items" accessLevel="100" confirmDlg="true" />
+	<admin command="destroy_all_items" accessLevel="100" confirmDlg="true" />
+	<admin command="destroyitems" accessLevel="100" confirmDlg="true" />
+	<admin command="destroyallitems" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN DISCONNECT -->
+	<admin command="character_disconnect" accessLevel="100" />
+
+	<!-- ADMIN DOOR CONTROL -->
+	<admin command="open" accessLevel="100" />
+	<admin command="close" accessLevel="100" />
+	<admin command="openall" accessLevel="100" />
+	<admin command="closeall" accessLevel="100" />
+	<admin command="showdoors" accessLevel="100" />
+
+	<!-- ADMIN EDIT CHAR -->
+	<admin command="edit_character" accessLevel="100" />
+	<admin command="current_player" accessLevel="30" />
+	<admin command="nokarma" accessLevel="100" />
+	<admin command="setkarma" accessLevel="100" />
+	<admin command="setfame" accessLevel="100" />
+	<admin command="character_list" accessLevel="30" />
+	<admin command="character_info" accessLevel="30" />
+	<admin command="show_characters" accessLevel="30" />
+	<admin command="find_character" accessLevel="30" />
+	<admin command="find_ip" accessLevel="30" />
+	<admin command="find_account" accessLevel="30" />
+	<admin command="find_dualbox" accessLevel="30" />
+	<admin command="strict_find_dualbox" accessLevel="30" />
+	<admin command="tracert" accessLevel="30" />
+	<admin command="rec" accessLevel="100" />
+	<admin command="settitle" accessLevel="100" />
+	<admin command="changename" accessLevel="100" />
+	<admin command="setsex" accessLevel="100" />
+	<admin command="setcolor" accessLevel="100" />
+	<admin command="settcolor" accessLevel="100" />
+	<admin command="setclass" accessLevel="100" />
+	<admin command="setpk" accessLevel="100" />
+	<admin command="setpvp" accessLevel="100" />
+	<admin command="set_pvp_flag" accessLevel="100" />
+	<admin command="fullfood" accessLevel="100" />
+	<admin command="remove_clan_penalty" accessLevel="100" />
+	<admin command="summon_info" accessLevel="30" />
+	<admin command="unsummon" accessLevel="100" />
+	<admin command="summon_setlvl" accessLevel="100" />
+	<admin command="show_pet_inv" accessLevel="100" />
+	<admin command="partyinfo" accessLevel="30" />
+	<admin command="setnoble" accessLevel="100" confirmDlg="true" />
+	<admin command="set_hp" accessLevel="100" />
+	<admin command="set_mp" accessLevel="100" />
+	<admin command="set_cp" accessLevel="100" />
+
+	<!-- ADMIN EFFECTS -->
+	<admin command="invis" accessLevel="30" />
+	<admin command="invisible" accessLevel="30" />
+	<admin command="setinvis" accessLevel="100" />
+	<admin command="vis" accessLevel="30" />
+	<admin command="visible" accessLevel="30" />
+	<admin command="invis_menu" accessLevel="30" />
+	<admin command="earthquake" accessLevel="100" />
+	<admin command="earthquake_menu" accessLevel="100" />
+	<admin command="bighead" accessLevel="100" />
+	<admin command="shrinkhead" accessLevel="100" />
+	<admin command="unpara_all" accessLevel="100" />
+	<admin command="para_all" accessLevel="100" />
+	<admin command="unpara" accessLevel="100" />
+	<admin command="para" accessLevel="100" />
+	<admin command="unpara_all_menu" accessLevel="100" />
+	<admin command="para_all_menu" accessLevel="100" />
+	<admin command="unpara_menu" accessLevel="100" />
+	<admin command="para_menu" accessLevel="100" />
+	<admin command="clearteams" accessLevel="100" />
+	<admin command="setteam_close" accessLevel="100" />
+	<admin command="setteam" accessLevel="100" />
+	<admin command="social" accessLevel="100" />
+	<admin command="social_menu" accessLevel="100" />
+	<admin command="effect" accessLevel="100" />
+	<admin command="effect_menu" accessLevel="100" />
+	<admin command="ave_abnormal" accessLevel="100" />
+	<admin command="ave_special" accessLevel="100" />
+	<admin command="ave_event" accessLevel="100" />
+	<admin command="play_sounds" accessLevel="100" />
+	<admin command="play_sound" accessLevel="100" />
+	<admin command="atmosphere" accessLevel="100" />
+	<admin command="atmosphere_menu" accessLevel="100" />
+	<admin command="event_trigger" accessLevel="100" />
+
+	<!-- ADMIN SPEED -->
+	<admin command="gmspeed" accessLevel="30" />
+	<admin command="superhaste" accessLevel="30" />
+	<admin command="superhaste_menu" accessLevel="30" />
+	<admin command="speed" accessLevel="30" />
+	<admin command="speed_menu" accessLevel="30" />
+
+	<!-- ADMIN ENCHANT -->
+	<admin command="seteh" accessLevel="100" />
+	<admin command="setec" accessLevel="100" />
+	<admin command="seteg" accessLevel="100" />
+	<admin command="setel" accessLevel="100" />
+	<admin command="seteb" accessLevel="100" />
+	<admin command="setew" accessLevel="100" />
+	<admin command="setes" accessLevel="100" />
+	<admin command="setle" accessLevel="100" />
+	<admin command="setre" accessLevel="100" />
+	<admin command="setlf" accessLevel="100" />
+	<admin command="setrf" accessLevel="100" />
+	<admin command="seten" accessLevel="100" />
+	<admin command="setun" accessLevel="100" />
+	<admin command="setba" accessLevel="100" />
+	<admin command="enchant" accessLevel="100" />
+
+	<!-- ADMIN EVENTS -->
+	<admin command="event_menu" accessLevel="100" />
+	<admin command="event_start" accessLevel="100" />
+	<admin command="event_stop" accessLevel="100" />
+	<admin command="event_start_menu" accessLevel="100" />
+	<admin command="event_stop_menu" accessLevel="100" />
+	<admin command="event_bypass" accessLevel="100" />
+
+	<!-- ADMIN EXP SP -->
+	<admin command="add_exp_sp_to_character" accessLevel="100" />
+	<admin command="add_exp_sp" accessLevel="100" />
+	<admin command="remove_exp_sp" accessLevel="100" />
+
+	<!-- ADMIN FIGHT CALCULATOR -->
+	<admin command="fight_calculator" accessLevel="100" />
+	<admin command="fight_calculator_show" accessLevel="100" />
+	<admin command="fcs" accessLevel="100" />
+
+	<!-- ADMIN GEODATA -->
+	<admin command="geo_pos" accessLevel="30" />
+	<admin command="geo_spawn_pos" accessLevel="30" />
+	<admin command="geo_can_see" accessLevel="30" />
+	<admin command="geo_can_move" accessLevel="30" />
+	<admin command="geogrid" accessLevel="30" />
+	<admin command="geomap" accessLevel="30" />
+	<admin command="geocell" accessLevel="100" />
+	<admin command="geosave" accessLevel="100" />
+	<admin command="geosaveall" accessLevel="100" confirmDlg="true" />
+	<admin command="geoenablenorth" accessLevel="100" />
+	<admin command="en" accessLevel="100" />
+	<admin command="geodisablenorth" accessLevel="100" />
+	<admin command="dn" accessLevel="100" />
+	<admin command="geoenablesouth" accessLevel="100" />
+	<admin command="es" accessLevel="100" />
+	<admin command="geodisablesouth" accessLevel="100" />
+	<admin command="ds" accessLevel="100" />
+	<admin command="geoenableeast" accessLevel="100" />
+	<admin command="ee" accessLevel="100" />
+	<admin command="geodisableeast" accessLevel="100" />
+	<admin command="de" accessLevel="100" />
+	<admin command="geoenablewest" accessLevel="100" />
+	<admin command="ew" accessLevel="100" />
+	<admin command="geodisablewest" accessLevel="100" />
+	<admin command="dw" accessLevel="100" />
+	<admin command="geoedit" accessLevel="100" />
+	<admin command="ge" accessLevel="100" />
+
+	<!-- ADMIN GEO EDITOR -->
+	<admin command="ge_status" accessLevel="100" />
+	<admin command="ge_mode" accessLevel="100" />
+	<admin command="ge_join" accessLevel="100" />
+	<admin command="ge_leave" accessLevel="100" />
+
+	<!-- ADMIN GM -->
+	<admin command="gm" accessLevel="100" />
+
+	<!-- ADMIN GM CHAT -->
+	<admin command="gmchat" accessLevel="30" />
+	<admin command="snoop" accessLevel="30" />
+	<admin command="gmchat_menu" accessLevel="30" />
+
+	<!-- ADMIN GRAND BOSS -->
+	<admin command="grandboss" accessLevel="100" />
+	<admin command="grandboss_skip" accessLevel="100" />
+	<admin command="grandboss_respawn" accessLevel="100" />
+	<admin command="grandboss_minions" accessLevel="100" />
+	<admin command="grandboss_abort" accessLevel="100" />
+	
+	<!-- ADMIN HEAL -->
+	<admin command="heal" accessLevel="100" />
+
+	<!-- ADMIN HTML -->
+	<admin command="html" accessLevel="100" />
+	<admin command="loadhtml" accessLevel="100" />
+
+	<!-- ADMIN INSTANCE -->
+	<admin command="setinstance" accessLevel="100" />
+	<admin command="createinstance" accessLevel="100" />
+	<admin command="destroyinstance" accessLevel="100" />
+	<admin command="listinstances" accessLevel="100" />
+
+	<!-- ADMIN INSTANCE ZONE -->
+	<admin command="instancezone" accessLevel="100" />
+	<admin command="instancezone_clear" accessLevel="100" />
+
+	<!-- ADMIN INVUL -->
+	<admin command="invul" accessLevel="30" />
+	<admin command="setinvul" accessLevel="100" />
+
+	<!-- ADMIN KICK -->
+	<admin command="kick" accessLevel="100" confirmDlg="true" />
+	<admin command="kick_non_gm" accessLevel="100" />
+
+	<!-- ADMIN KILL -->
+	<admin command="kill" accessLevel="100" />
+	<admin command="kill_monster" accessLevel="100" />
+
+	<!-- ADMIN LEVEL -->
+	<admin command="add_level" accessLevel="100" />
+	<admin command="set_level" accessLevel="100" />
+
+	<!-- ADMIN LOGIN -->
+	<admin command="server_gm_only" accessLevel="30" />
+	<admin command="server_all" accessLevel="30" />
+	<admin command="server_max_player" accessLevel="30" />
+	<admin command="server_list_type" accessLevel="30" />
+	<admin command="server_list_age" accessLevel="30" />
+	<admin command="server_login" accessLevel="30" />
+
+	<!-- ADMIN MAMMON -->
+	<admin command="mammon_find" accessLevel="30" />
+	<admin command="mammon_respawn" accessLevel="100" />
+
+	<!-- ADMIN MANOR -->
+	<admin command="manor" accessLevel="100" />
+	
+	<!-- ADMIN MENU -->
+	<admin command="char_manage" accessLevel="30" />
+	<admin command="teleport_character_to_menu" accessLevel="100" />
+	<admin command="recall_char_menu" accessLevel="100" confirmDlg="true" />
+	<admin command="recall_party_menu" accessLevel="100" />
+	<admin command="recall_clan_menu" accessLevel="100" />
+	<admin command="goto_char_menu" accessLevel="30" />
+	<admin command="kick_menu" accessLevel="100" confirmDlg="true" />
+	<admin command="kill_menu" accessLevel="100" />
+	<admin command="ban_menu" accessLevel="30" />
+	<admin command="unban_menu" accessLevel="30" />
+
+	<!-- ADMIN MESSAGES -->
+	<admin command="msg" accessLevel="100" />
+
+	<!-- ADMIN FAKE PLAYERS -->
+	<admin command="fakechat" accessLevel="100" />
+
+	<!-- ADMIN MOB GROUP -->
+	<admin command="mobmenu" accessLevel="100" />
+	<admin command="mobgroup_list" accessLevel="100" />
+	<admin command="mobgroup_create" accessLevel="100" />
+	<admin command="mobgroup_remove" accessLevel="100" />
+	<admin command="mobgroup_delete" accessLevel="100" />
+	<admin command="mobgroup_spawn" accessLevel="100" />
+	<admin command="mobgroup_unspawn" accessLevel="100" />
+	<admin command="mobgroup_kill" accessLevel="100" />
+	<admin command="mobgroup_idle" accessLevel="100" />
+	<admin command="mobgroup_attack" accessLevel="100" />
+	<admin command="mobgroup_rnd" accessLevel="100" />
+	<admin command="mobgroup_return" accessLevel="100" />
+	<admin command="mobgroup_follow" accessLevel="100" />
+	<admin command="mobgroup_casting" accessLevel="100" />
+	<admin command="mobgroup_nomove" accessLevel="100" />
+	<admin command="mobgroup_attackgrp" accessLevel="100" />
+	<admin command="mobgroup_invul" accessLevel="100" />
+
+	<!-- ADMIN ONLINE -->
+	<admin command="online" accessLevel="100" />
+
+	<!-- ADMIN PATH NODE -->
+	<admin command="path_find" accessLevel="100" />
+
+	<!-- ADMIN PETITION -->
+	<admin command="view_petitions" accessLevel="30" />
+	<admin command="view_petition" accessLevel="30" />
+	<admin command="accept_petition" accessLevel="30" />
+	<admin command="reject_petition" accessLevel="30" />
+	<admin command="reset_petitions" accessLevel="30" />
+	<admin command="force_peti" accessLevel="30" />
+
+	<!-- ADMIN P FORGE -->
+	<admin command="forge" accessLevel="100" />
+	<admin command="forge_values" accessLevel="100" />
+	<admin command="forge_send" accessLevel="100" />
+
+	<!-- ADMIN PLEDGE -->
+	<admin command="pledge" accessLevel="100" />
+
+	<!-- ADMIN PC CAFE POINTS -->
+	<admin command="pccafepoints" accessLevel="100" />
+
+	<!-- PREMIUM SYSTEM -->
+	<admin command="premium_menu" accessLevel="100" />
+	<admin command="premium_add1" accessLevel="100" confirmDlg="true" />
+	<admin command="premium_add2" accessLevel="100" confirmDlg="true" />
+	<admin command="premium_add3" accessLevel="100" confirmDlg="true" />
+	<admin command="premium_info" accessLevel="100" />
+	<admin command="premium_remove" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN QUEST -->
+	<admin command="quest_reload" accessLevel="100" />
+	<admin command="script_load" accessLevel="100" />
+	<admin command="script_unload" accessLevel="100" />
+	<admin command="show_quests" accessLevel="100" />
+	<admin command="quest_info" accessLevel="100" />
+
+	<!-- ADMIN RELOAD -->
+	<admin command="reload" accessLevel="100" confirmDlg="true" />
+	
+	<!-- ADMIN REPAIR CHAR -->
+	<admin command="restore" accessLevel="100" />
+	<admin command="repair" accessLevel="100" />
+
+	<!-- ADMIN RES -->
+	<admin command="res" accessLevel="100" />
+	<admin command="res_monster" accessLevel="100" />
+
+	<!-- ADMIN RIDE -->
+	<admin command="ride_wyvern" accessLevel="100" />
+	<admin command="ride_strider" accessLevel="100" />
+	<admin command="unride_wyvern" accessLevel="100" />
+	<admin command="unride_strider" accessLevel="100" />
+	<admin command="unride" accessLevel="100" />
+
+	<!-- ADMIN SHOP -->
+	<admin command="buy" accessLevel="100" />
+	<admin command="gmshop" accessLevel="100" />
+
+	<!-- ADMIN SHOW QUEST -->
+	<admin command="charquestmenu" accessLevel="100" />
+	<admin command="setcharquest" accessLevel="100" />
+
+	<!-- ADMIN SHUTDOWN -->
+	<admin command="server_shutdown" accessLevel="30" confirmDlg="true" />
+	<admin command="server_restart" accessLevel="30" confirmDlg="true" />
+	<admin command="server_abort" accessLevel="30" />
+
+	<!-- ADMIN SIEGE -->
+	<admin command="siege" accessLevel="100" />
+	<admin command="add_attacker" accessLevel="100" />
+	<admin command="add_defender" accessLevel="100" />
+	<admin command="add_guard" accessLevel="100" />
+	<admin command="list_siege_clans" accessLevel="100" />
+	<admin command="clear_siege_list" accessLevel="100" />
+	<admin command="move_defenders" accessLevel="100" />
+	<admin command="spawn_doors" accessLevel="100" />
+	<admin command="endsiege" accessLevel="100" />
+	<admin command="startsiege" accessLevel="100" />
+	<admin command="setsiegetime" accessLevel="100" />
+	<admin command="setcastle" accessLevel="100" />
+	<admin command="removecastle" accessLevel="100" />
+	<admin command="clanhall" accessLevel="100" />
+	<admin command="clanhallset" accessLevel="100" />
+	<admin command="clanhalldel" accessLevel="100" />
+	<admin command="clanhallopendoors" accessLevel="100" />
+	<admin command="clanhallclosedoors" accessLevel="100" />
+	<admin command="clanhallteleportself" accessLevel="100" />
+
+	<!-- ADMIN SKILL -->
+	<admin command="show_skills" accessLevel="100" />
+	<admin command="remove_skills" accessLevel="100" />
+	<admin command="skill_list" accessLevel="100" />
+	<admin command="skill_race" accessLevel="100" />
+	<admin command="skill_class" accessLevel="100" />
+	<admin command="skill_add_list" accessLevel="100" />
+	<admin command="skill_index" accessLevel="100" />
+	<admin command="add_skill" accessLevel="100" />
+	<admin command="remove_skill" accessLevel="100" />
+	<admin command="get_skills" accessLevel="100" />
+	<admin command="reset_skills" accessLevel="100" />
+	<admin command="give_all_skills" accessLevel="100" />
+	<admin command="give_all_skills_fs" accessLevel="100" />
+	<admin command="give_clan_skills" accessLevel="100" />
+	<admin command="give_all_clan_skills" accessLevel="100" />
+	<admin command="remove_all_skills" accessLevel="100" />
+	<admin command="add_clan_skill" accessLevel="100" />
+	<admin command="setskill" accessLevel="100" />
+
+	<!-- ADMIN SPAWN -->
+	<admin command="show_spawns" accessLevel="100" />
+	<admin command="spawn" accessLevel="100" />
+	<admin command="spawn_monster" accessLevel="100" />
+	<admin command="spawn_index" accessLevel="100" />
+	<admin command="unspawnall" accessLevel="100" />
+	<admin command="respawnall" accessLevel="100" />
+	<admin command="spawn_reload" accessLevel="100" />
+	<admin command="npc_index" accessLevel="100" />
+	<admin command="spawn_once" accessLevel="100" />
+	<admin command="show_npcs" accessLevel="100" />
+	<admin command="spawnnight" accessLevel="100" />
+	<admin command="spawnday" accessLevel="100" />
+	<admin command="instance_spawns" accessLevel="100" />
+	<admin command="list_spawns" accessLevel="100" />
+	<admin command="list_positions" accessLevel="100" />
+	<admin command="spawn_debug_menu" accessLevel="100" />
+	<admin command="spawn_debug_print" accessLevel="100" />
+	<admin command="spawn_debug_print_menu" accessLevel="100" />
+	<admin command="topspawncount" accessLevel="100" />
+	<admin command="top_spawn_count" accessLevel="100" />
+
+	<!-- ADMIN SUMMON -->
+	<admin command="summon" accessLevel="100" />
+
+	<!-- ADMIN TARGET -->
+	<admin command="target" accessLevel="100" />
+
+	<!-- ADMIN TARGETSAY -->
+	<admin command="targetsay" accessLevel="100" />
+
+	<!-- ADMIN TELEPORT -->
+	<admin command="show_moves" accessLevel="100" />
+	<admin command="show_moves_other" accessLevel="100" />
+	<admin command="show_teleport" accessLevel="30" />
+	<admin command="teleport_to_character" accessLevel="30" />
+	<admin command="teleportto" accessLevel="30" />
+	<admin command="move_to" accessLevel="100" />
+	<admin command="teleport_character" accessLevel="100" />
+	<admin command="recall" accessLevel="100" />
+	<admin command="walk" accessLevel="100" />
+	<admin command="teleportto" accessLevel="100" />
+	<admin command="recall" accessLevel="100" />
+	<admin command="recall_npc" accessLevel="100" />
+	<admin command="gonorth" accessLevel="30" />
+	<admin command="gosouth" accessLevel="30" />
+	<admin command="goeast" accessLevel="30" />
+	<admin command="gowest" accessLevel="30" />
+	<admin command="goup" accessLevel="30" />
+	<admin command="godown" accessLevel="30" />
+	<admin command="tele" accessLevel="30" />
+	<admin command="teleto" accessLevel="30" />
+	<admin command="instant_move" accessLevel="30" />
+	<admin command="sendhome" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN TEST -->
+	<admin command="skill_test" accessLevel="100" />
+
+	<!-- ADMIN VITALITY -->
+	<admin command="set_vitality" accessLevel="100" />
+	<admin command="set_vitality_level" accessLevel="100" />
+	<admin command="full_vitality" accessLevel="100" />
+	<admin command="empty_vitality" accessLevel="100" />
+	<admin command="get_vitality" accessLevel="100" />
+
+	<!-- ADMIN ZONE -->
+	<admin command="zone_check" accessLevel="30" />
+	<admin command="zone_visual" accessLevel="100" />
+	<admin command="zone_visual_clear" accessLevel="100" />
+
+	<!-- ADMIN SCAN -->
+	<admin command="scan" accessLevel="30" />
+	<admin command="deleteNpcByObjectId" accessLevel="100" confirmDlg="true" />
+
+	<!-- ADMIN SEARCH -->
+	<admin command="search" accessLevel="30" />
+
+	<!-- ADMIN SERVERINFO -->
+	<admin command="serverinfo" accessLevel="30" />
+
+	<!-- VOICE COMMANDS -->
+	<admin command="banchat" accessLevel="30" />
+	<admin command="chatban" accessLevel="30" />
+	<admin command="unbanchat" accessLevel="30" />
+	<admin command="chatunban" accessLevel="30" />
+
+	<!-- HIDE -->
+	<admin command="hide" accessLevel="30" />
+
+	<!-- FENCES -->
+	<admin command="addfence" accessLevel="100" />
+	<admin command="setfencestate" accessLevel="100" />
+	<admin command="removefence" accessLevel="100" />
+	<admin command="listfence" accessLevel="100" />
+	<admin command="gofence" accessLevel="100" />
+</list>
