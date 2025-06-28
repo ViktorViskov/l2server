@@ -1,0 +1,2 @@
+Command to create docker container
+docker run -ti --network host --name l2java -v /home/admin/tmp/l2/server/:/app openjdk:24-slim
