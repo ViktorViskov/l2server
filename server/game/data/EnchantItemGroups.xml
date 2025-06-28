@@ -2,22 +2,22 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/enchantItemGroups.xsd">
 	<!-- General armor enchant group. -->
 	<enchantRateGroup name="ARMOR_GROUP">
-		<current enchant="0-65535" chance="100" />
+		<current enchant="0-300" chance="100" />
 	</enchantRateGroup>
 
 	<!-- General full armor enchant group. -->
 	<enchantRateGroup name="FULL_ARMOR_GROUP">
-		<current enchant="0-65535" chance="100" />
+		<current enchant="0-300" chance="100" />
 	</enchantRateGroup>
 
 	<!-- General fighter weapon enchant group. -->
 	<enchantRateGroup name="FIGHTER_WEAPON_GROUP">
-		<current enchant="0-65535" chance="100" />
+		<current enchant="0-300" chance="100" />
 	</enchantRateGroup>
 
 	<!-- General mage weapon enchant group. -->
 	<enchantRateGroup name="MAGE_WEAPON_GROUP">
-		<current enchant="0-65535" chance="100" />
+		<current enchant="0-300" chance="100" />
 	</enchantRateGroup>
 
 	<!-- Default scrolls enchanting route line. -->
