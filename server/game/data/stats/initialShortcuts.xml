@@ -5,14 +5,17 @@
 		<page pageId="0">
 			<slot slotId="0" shortcutType="ACTION" shortcutId="2" /> <!-- Attack -->
 			<slot slotId="3" shortcutType="ACTION" shortcutId="5" /> <!-- Pick Up -->
-			<slot slotId="10" shortcutType="ACTION" shortcutId="0" /> <!-- Sit/Stand -->
-			<slot slotId="11" shortcutType="ITEM" shortcutId="5588" /> <!-- Tutorial Guide -->
 		</page>
 		<!-- Custom example. -->
-		<page pageId="1">
-			<slot slotId="0" shortcutType="MACRO" shortcutId="10000" /> <!-- Macro Test -->
-		</page>
-	</shortcuts>
+		<page pageId="2">
+			<slot slotId="0" shortcutType="MACRO" shortcutId="10001" />
+			<slot slotId="1" shortcutType="MACRO" shortcutId="10002" />
+			<slot slotId="2" shortcutType="MACRO" shortcutId="10003" />
+			<slot slotId="3" shortcutType="MACRO" shortcutId="10004" />
+			<slot slotId="4" shortcutType="MACRO" shortcutId="10005" />
+			<slot slotId="5" shortcutType="MACRO" shortcutId="10006" />
+			<slot slotId="6" shortcutType="MACRO" shortcutId="10007" />
+		</page>	</shortcuts>
 	<!-- Human Mystic -->
 	<shortcuts classId="10">
 		<page pageId="0">
@@ -49,6 +52,38 @@
 			<command type="TEXT">/loc</command> <!-- To define a command, just include the string as if it was typed in-game. -->
 			<command type="TEXT">!Hellooooo world!</command> <!-- To define a text, just include the string as if it was typed in-game. -->
 			<command type="SHORTCUT" page="0" slot="11" /> <!-- To define a shortcut (to an equipped item in example), include page and slot number. -->
+		</macro>
+
+		<!-- autoplay -->
+		<macro macroId="10001" icon="1" name="Autoplay" description="Enable autoplay" acronym="AuPl" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.play</command> <!-- To define a text, just include the string as if it was typed in-game. -->
+		</macro>
+
+		<!-- offline play -->
+		<macro macroId="10002" icon="1" name="Offline play" description="Enable offlineplay" acronym="OfPl" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.offlineplay</command> <!-- To define a text, just include the string as if it was typed in-game. -->
+		</macro>
+
+		<!-- Convert adena -->
+		<macro macroId="10003" icon="1" name="Deposit" description="Adena deposit" acronym="Depo" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.deposit</command> <!-- To define a text, just include the string as if it was typed in-game. -->
+		</macro>
+		<macro macroId="10004" icon="1" name="Withdraw" description="Adena withdraw" acronym="With" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.withdraw</command> <!-- To define a text, just include the string as if it was typed in-game. -->
+		</macro>
+
+		<!-- Amount online -->
+		<macro macroId="10005" icon="1" name="Online" description="Persons on server" acronym="Onli" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.online</command> <!-- To define a text, just include the string as if it was typed in-game. -->
+		</macro>
+
+		<!-- Autopotions -->
+		<macro macroId="10006" icon="1" name="Potions ON" description="Enable autopotions" acronym="PoOn" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.apon</command> <!-- To define a text, just include the string as if it was typed in-game. -->
+		</macro>
+
+		<macro macroId="10007" icon="1" name="Potions OFF" description="Disable autopotions" acronym="PoOf" enabled="true"> <!-- Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros. -->
+			<command type="TEXT">.apoff</command> <!-- To define a text, just include the string as if it was typed in-game. -->
 		</macro>
 	</macros>
 </list>
