@@ -1,0 +1,178 @@
+2025.04.15 23:40:26,137	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2025.04.15 23:40:26,609	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2025.04.15 23:40:26,630	INFO	3	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2025.04.15 23:40:26,636	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2025.04.15 23:40:26,637	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2025.04.15 23:40:26,639	INFO	3	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2025.04.15 23:40:27,379	INFO	3	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2025.04.15 23:40:27,415	INFO	3	org.l2jmobius.loginserver.LoginController	Stored 20 keys for Blowfish communication.
+2025.04.15 23:40:27,545	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2025.04.15 23:40:27,581	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2025.04.15 23:40:27,649	INFO	3	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2025.04.15 23:40:27,653	INFO	3	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2025.04.15 23:40:27,655	INFO	3	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2025.04.15 23:40:27,678	INFO	3	org.l2jmobius.loginserver.LoginServer	LoginServer: is now listening on: 0.0.0.0:2106
+2025.04.15 23:41:13,055	INFO	40	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.15 23:41:13,058	INFO	40	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.15 23:41:13,058	INFO	40	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.15 23:41:13,058	INFO	40	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.15 23:41:13,059	INFO	40	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.15 23:41:13,059	INFO	40	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.15 23:41:13,059	INFO	40	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.15 23:41:13,059	INFO	40	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.16 10:38:34,712	INFO	40	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.16 10:39:17,920	INFO	347	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.16 10:39:17,920	INFO	347	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.16 10:39:17,920	INFO	347	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.16 10:39:17,921	INFO	347	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.16 10:39:17,921	INFO	347	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.16 10:39:17,921	INFO	347	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.16 10:39:17,922	INFO	347	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.16 10:39:17,922	INFO	347	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.16 11:17:16,531	INFO	347	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.16 11:17:53,381	INFO	366	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.16 11:17:53,382	INFO	366	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.16 11:17:53,382	INFO	366	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.16 11:17:53,383	INFO	366	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.16 11:17:53,384	INFO	366	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.16 11:17:53,384	INFO	366	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.16 11:17:53,385	INFO	366	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.16 11:17:53,385	INFO	366	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.16 11:28:29,300	INFO	366	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.16 11:42:19,786	INFO	377	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.16 11:42:19,786	INFO	377	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.16 11:42:19,787	INFO	377	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.16 11:42:19,787	INFO	377	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.16 11:42:19,788	INFO	377	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.16 11:42:19,788	INFO	377	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.16 11:42:19,788	INFO	377	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.16 11:42:19,788	INFO	377	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.16 13:26:12,446	INFO	377	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.16 13:26:50,862	INFO	424	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.16 13:26:50,862	INFO	424	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.16 13:26:50,863	INFO	424	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.16 13:26:50,863	INFO	424	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.16 13:26:50,864	INFO	424	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.16 13:26:50,864	INFO	424	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.16 13:26:50,864	INFO	424	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.16 13:26:50,864	INFO	424	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.16 21:22:57,719	INFO	424	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.16 21:23:36,229	INFO	641	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.16 21:23:36,230	INFO	641	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.16 21:23:36,230	INFO	641	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.16 21:23:36,230	INFO	641	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.16 21:23:36,230	INFO	641	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.16 21:23:36,231	INFO	641	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.16 21:23:36,231	INFO	641	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.16 21:23:36,231	INFO	641	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.17 13:32:43,093	INFO	641	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.17 13:33:21,071	INFO	1078	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.17 13:33:21,071	INFO	1078	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.17 13:33:21,071	INFO	1078	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.17 13:33:21,071	INFO	1078	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.17 13:33:21,071	INFO	1078	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.17 13:33:21,072	INFO	1078	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.17 13:33:21,072	INFO	1078	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.17 13:33:21,072	INFO	1078	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.17 16:59:50,466	INFO	1078	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.17 17:00:28,393	INFO	1173	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.17 17:00:28,394	INFO	1173	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.17 17:00:28,394	INFO	1173	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.17 17:00:28,394	INFO	1173	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.17 17:00:28,394	INFO	1173	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.17 17:00:28,394	INFO	1173	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.17 17:00:28,395	INFO	1173	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.17 17:00:28,395	INFO	1173	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.17 17:44:55,474	INFO	1173	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.17 17:45:32,795	INFO	1194	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.17 17:45:32,795	INFO	1194	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.17 17:45:32,796	INFO	1194	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.17 17:45:32,796	INFO	1194	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.17 17:45:32,796	INFO	1194	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.17 17:45:32,796	INFO	1194	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.17 17:45:32,796	INFO	1194	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.17 17:45:32,796	INFO	1194	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.17 20:22:35,694	INFO	1194	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.17 20:23:18,013	INFO	1265	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.17 20:23:18,015	INFO	1265	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.17 20:23:18,015	INFO	1265	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.17 20:23:18,015	INFO	1265	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.17 20:23:18,015	INFO	1265	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.17 20:23:18,015	INFO	1265	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.17 20:23:18,016	INFO	1265	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.17 20:23:18,016	INFO	1265	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.17 20:59:12,388	INFO	46	org.l2jmobius.loginserver.LoginController	Auto created account 'craft'.
+2025.04.17 21:46:24,390	INFO	46	org.l2jmobius.loginserver.LoginController	Auto created account 'creft'.
+2025.04.18 08:48:13,766	INFO	1265	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.18 08:48:56,629	INFO	1608	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.18 08:48:56,630	INFO	1608	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.18 08:48:56,630	INFO	1608	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.18 08:48:56,630	INFO	1608	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.18 08:48:56,630	INFO	1608	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.18 08:48:56,631	INFO	1608	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.18 08:48:56,631	INFO	1608	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.18 08:48:56,631	INFO	1608	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.18 09:04:18,132	INFO	1608	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.18 09:05:00,065	INFO	1617	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.18 09:05:00,066	INFO	1617	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.18 09:05:00,066	INFO	1617	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.18 09:05:00,067	INFO	1617	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.18 09:05:00,067	INFO	1617	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.18 09:05:00,067	INFO	1617	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.18 09:05:00,067	INFO	1617	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.18 09:05:00,067	INFO	1617	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.18 09:21:28,073	INFO	1617	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.18 09:22:12,031	INFO	1626	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.18 09:22:12,032	INFO	1626	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.18 09:22:12,033	INFO	1626	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.18 09:22:12,033	INFO	1626	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.18 09:22:12,033	INFO	1626	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.18 09:22:12,033	INFO	1626	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.18 09:22:12,033	INFO	1626	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.18 09:22:12,034	INFO	1626	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.18 09:35:37,001	INFO	1626	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.18 09:36:19,784	INFO	1635	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.18 09:36:19,785	INFO	1635	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.18 09:36:19,785	INFO	1635	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.18 09:36:19,786	INFO	1635	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.18 09:36:19,786	INFO	1635	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.18 09:36:19,786	INFO	1635	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.18 09:36:19,786	INFO	1635	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.18 09:36:19,786	INFO	1635	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.18 09:53:55,373	INFO	1635	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.18 09:54:39,228	INFO	1644	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.18 09:54:39,229	INFO	1644	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.18 09:54:39,229	INFO	1644	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.18 09:54:39,229	INFO	1644	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.18 09:54:39,229	INFO	1644	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.18 09:54:39,229	INFO	1644	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.18 09:54:39,229	INFO	1644	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.18 09:54:39,230	INFO	1644	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.20 12:39:02,030	INFO	1644	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.20 12:39:48,226	INFO	3025	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.20 12:39:48,255	INFO	3025	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.20 12:39:48,256	INFO	3025	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.20 12:39:48,256	INFO	3025	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.20 12:39:48,256	INFO	3025	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.20 12:39:48,256	INFO	3025	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.20 12:39:48,256	INFO	3025	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.20 12:39:48,257	INFO	3025	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.21 10:56:40,020	INFO	3025	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.21 10:59:49,235	INFO	3638	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.21 10:59:49,236	INFO	3638	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.21 10:59:49,236	INFO	3638	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.21 10:59:49,236	INFO	3638	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.21 10:59:49,236	INFO	3638	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.21 10:59:49,236	INFO	3638	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.21 10:59:49,237	INFO	3638	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.21 10:59:49,237	INFO	3638	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.21 11:27:40,317	INFO	3638	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2025.04.21 11:28:22,259	INFO	3651	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	172.21.0.1/172.21.0.0/16
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	172.18.0.1/172.18.0.0/16
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	172.22.0.1/172.22.0.0/16
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	172.19.0.1/172.19.0.0/16
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	192.168.0.2/192.168.0.0/24
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.21 11:28:22,261	INFO	3651	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.06.24 22:22:45,032	INFO	43	org.l2jmobius.loginserver.LoginController	Auto created account 'new'.

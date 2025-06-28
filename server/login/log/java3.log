@@ -1,0 +1,19 @@
+2025.04.15 23:37:07,492	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2025.04.15 23:37:07,944	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2025.04.15 23:37:07,966	INFO	3	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2025.04.15 23:37:07,971	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2025.04.15 23:37:07,971	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2025.04.15 23:37:07,974	INFO	3	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2025.04.15 23:37:08,465	INFO	3	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2025.04.15 23:37:08,500	INFO	3	org.l2jmobius.loginserver.LoginController	Stored 20 keys for Blowfish communication.
+2025.04.15 23:37:08,635	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2025.04.15 23:37:08,677	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2025.04.15 23:37:08,773	INFO	3	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2025.04.15 23:37:08,777	INFO	3	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2025.04.15 23:37:08,779	INFO	3	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2025.04.15 23:37:08,799	INFO	3	org.l2jmobius.loginserver.LoginServer	LoginServer: is now listening on: 0.0.0.0:2106
+2025.04.15 23:38:28,636	INFO	40	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2025.04.15 23:38:28,639	INFO	40	org.l2jmobius.loginserver.GameServerThread	172.17.0.2/172.17.0.0/16
+2025.04.15 23:38:28,639	INFO	40	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2025.04.15 23:38:28,639	INFO	40	org.l2jmobius.loginserver.GameServerThread	87.61.95.38/0.0.0.0/0
+2025.04.15 23:38:46,088	INFO	40	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
