@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="19_15">
+		<npc id="27199" x="-16732" y="-79832" z="-3616" heading="0" respawnDelay="180" /> <!-- Crimson Werewolf -->
+		<npc id="30669" x="-9563" y="-89959" z="-2320" heading="0" respawnDelay="60" /> <!-- Kakan -->
+	</spawn>
+</list>

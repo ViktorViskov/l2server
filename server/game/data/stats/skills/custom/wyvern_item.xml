@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+	<skill id="49900" levels="1" name="Gold Wyvern">
+		<set name="icon" val="icon.skill4289" />
+		<set name="displayId" val="4289" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<set name="reuseDelay" val="3000" />
+		<cond>
+			<player canSummon="true" />
+		</cond>
+		<for>
+			<effect name="Ride">
+				<param npcId="12621" />
+			</effect>
+		</for>
+	</skill>
+</list>
